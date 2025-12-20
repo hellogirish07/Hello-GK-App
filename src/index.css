@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.center-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+}
+
+.app-gradient {
+  background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 25%, #16213e 50%, #0f3460 75%, #533483 100%);
+}
+
+:root {
+  --bg-dark: #020617;
+  --text-main: #ffffff;
+  --text-muted: rgba(255,255,255,0.7);
+  --accent: #facc15;
+}
+
+.glass {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  color: var(--text-main);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.social-icons a {
+  transition: color 0.3s, background-color 0.3s, transform 0.3s;
+}
+
+.bottom-nav button {
+  transition: transform 0.2s;
+}
+
+.bottom-nav button:hover {
+  transform: scale(1.2);
+}
