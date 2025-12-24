@@ -124,19 +124,19 @@ export default function Resume() {
 
               <ul className="space-y-3 text-white list-disc list-inside">
                 <li>
-                  <span className="font-medium">
+                  <span className="font-medium text-yellow-400">
                     Quick Code Studio
                   </span>{" "}
                   – Online code editor with live preview
                 </li>
                 <li>
-                  <span className="font-medium ">
+                  <span className="font-medium text-yellow-400">
                     PDF Merger App
                   </span>{" "}
                   – In-browser PDF merge tool
                 </li>
                 <li>
-                  <span className="font-medium">
+                  <span className="font-medium text-yellow-400">
                     Genius GK (AI Chatbot)
                   </span>{" "}
                   – Gemini API powered chatbot
