@@ -47,7 +47,7 @@ export default function Contact() {
         </div>
 
         {/* RIGHT — Contact Form */}
-        <div className="glass shadow-lg rounded-2xl border-2 border-black p-8 " data-aos="fade-up">
+        <div className="glass shadow-lg rounded-xl border-2 border-black p-8 " data-aos="fade-up">
           <form method="POST" className="space-y-3"
             action="https://api.web3forms.com/submit">
             <input type="hidden" name="access_key" value="33d44239-b74e-45c4-be8a-5c9f3feaab1d" />
