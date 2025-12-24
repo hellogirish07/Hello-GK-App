@@ -13,7 +13,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
   return (
     <>
       {/* TOP NAV FOR DESKTOP & MOBILE */}
-      <nav className="glass w-full fixed top-0 left-0 bg-gray-900 text-white py-4 px-6 flex justify-between items-center shadow-md z-10">
+      <nav className="glass w-full fixed top-0 left-0 bg-gray-900 text-white py-4 px-6 flex justify-between items-center shadow-md z-10 rounded-b-2xl">
         
         {/* Left side text → Desktop + Mobile */}
         <div className="flex-1 flex justify-center md:justify-start">
@@ -35,7 +35,7 @@ export default function Navbar({ currentPage, setCurrentPage }) {
       </nav>
 
       {/* BOTTOM NAV → MOBILE ONLY */}
-      <nav className="glass md:hidden fixed bottom-0 left-0 w-full bg-gray-900 text-white flex justify-around py-3 shadow-lg z-10 bottom-nav"> 
+      <nav className="glass md:hidden fixed bottom-0 left-0 w-full bg-gray-900 text-white flex justify-around py-3 shadow-lg z-10 bottom-nav rounded-t-2xl"> 
         {menu.map((item) => (
           <button
             key={item.name}
