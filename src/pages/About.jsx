@@ -37,35 +37,35 @@ export default function About() {
       </div>
       
       <div className=" gap-3 justify-center md:justify-start grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 mt-8 w-full max-w-4xl" data-aos="fade-up">
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-html5 mr-2"></i>
           HTML5
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-css3-alt mr-2"></i>
           CSS3
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-js-square mr-2"></i>
           JavaScript
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-bootstrap mr-2"></i>
           Bootstrap
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fas fa-code mr-2"></i>
           Tailwind CSS
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-node-js mr-2"></i>
           Node JS
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-react mr-2"></i>
           React JS
         </span>
-        <span className="glass px-4 py-2 text-white rounded-full text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
+        <span className="glass px-4 py-2 text-white rounded-xl text-sm md:text-lg font-medium text-black hover:bg-yellow-400 hover:text-black">
           <i className="fa-brands fa-github mr-2"></i>
           GitHub
         </span> 
